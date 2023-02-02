@@ -1,0 +1,123 @@
+:root{
+  --color-white: #fff;
+  --color-light: #f4f4f4;
+  --color-dark: #525252;
+  --color-black: #141415;
+  --color-primary: #ff4441;
+  --color-success: #29f5a6;
+  --color-warning: #ffce31;
+
+  --transition: all 300ms ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(background.png);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-dark);
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--color-black);
+  line-height: 1.2;
+}
+
+h1{
+  font-size: 48pt;
+}
+
+h2{
+  font-size: 32pt;
+}
+
+h3{
+  font-size: 24pt;
+}
+
+h4{
+  font-size: 16pt;
+}
+
+h5{
+  font-size: 12pt;
+}
+
+p {
+  line-height: 22pt;
+}
+
+/* ================= Sign-In =============== */
+
+section.home .container{
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  margin: 150px 40%;
+  border-radius: 20px;
+}
+
+section.home .container  img{
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+section.home .container .details{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
+section.home .container .sign-in{
+  margin-left: 110px;
+  color: black;
+  font-size: 24px;
+}
+
+
+input {
+  background-color: #eeeeee;
+  margin-top: 4px;
+  padding: 8px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid #555;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+section.home .container .req-acc {
+  font-size: 14px;
+  margin-top: 16px;
+  margin-left: 90px;
+  align-items: center;
+}
